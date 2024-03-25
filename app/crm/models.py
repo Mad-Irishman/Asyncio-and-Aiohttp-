@@ -1,8 +1,8 @@
-import dataclasses
+from dataclasses import dataclass
 import uuid
 
 
-@dataclasses.dataclass
+@dataclass
 class User:
     _id: uuid.UUID
     email: str
